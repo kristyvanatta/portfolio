@@ -7,8 +7,12 @@ nav {
     float: right;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
-    float: right;
+    text-align: center;
 }
 
 li {

@@ -1,10 +1,11 @@
 * {
-    background-color: lightskyblue;
+    background-color: rgb(68, 136, 178);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
     float: right;
+    font-size: 30px;
 }
 
 a {
@@ -19,8 +20,30 @@ li {
     display: inline;
 }
 
-img {
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+.profile-pic {
     height: 150px;
     width: 150px;
     border-radius: 50px;
+    margin: 10px;
+}
+
+aside {
+    margin: 10px;
+    padding: 10px;
+}
+
+.header-pic {
+    height: 200px;
+    width: 100%;
+}
+@media screen (max-width:768px) {
+main,
+nav
 }

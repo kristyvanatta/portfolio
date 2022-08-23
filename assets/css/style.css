@@ -8,7 +8,7 @@ body {
     background-color:  rgb(19, 109, 134);
 }
 /*banner image credit: https://pixabay.com/illustrations/banner-header-homepage-halloween-1756639/
-sets the height of the header banner*/
+sets the height of the header banner and allows to put text on banner image*/
 .background-img {
     background-image: url("../banner-1756639_1920.jpg");
     height: 300px;

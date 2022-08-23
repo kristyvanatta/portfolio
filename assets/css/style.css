@@ -1,7 +1,15 @@
 * {
-    background-color: rgb(68, 136, 178);
     font-family: 'Courier New', Courier, monospace;
     color:rgb(248, 233, 213);
+}
+
+body {
+    background-color:  rgb(68, 136, 178);
+}
+
+.background-img {
+    background-image: url("../banner-1756639_1920.jpg");
+    height: 200px;
 }
 
 nav {

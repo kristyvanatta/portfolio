@@ -13,7 +13,7 @@ body {
 /*banner image credit: https://pixabay.com/illustrations/banner-header-homepage-halloween-1756639/
 sets the height of the header banner and allows to put text on banner image*/
 .header-img {
-    background-image: url("../banner-1756639_1920.jpg");
+    background-image: url("../images/banner-1756639_1920.jpg");
     flex: 1 0 auto;
     padding: 10px;
     border-style: solid;
@@ -21,17 +21,23 @@ sets the height of the header banner and allows to put text on banner image*/
     height: 300px;
 }
 
-
+/*#aboutme {
+    position: absolute;
+}*/
 
 .aboutme {
     flex: 1 1 auto;
     padding: 10px;
-    margin: 0%;
+    margin: 0%; 
     border-right: 10px solid;
     font-size: 50px;
     width: 15%;
 }
 
+/*#aboutp{
+    position: absolute;
+    margin: auto;
+}*/
 .aboutp {
     flex: 1 0 auto;
     padding: 10px;
@@ -85,7 +91,6 @@ nav :hover {
 background-color:rgb(26, 78, 69);
 }
 
-
 /*removed the underline from the links*/
 a {
     text-decoration: none;
@@ -124,5 +129,8 @@ h2 {
 
 
 @media screen and (max-width:768px) {
-main,
+main, body{
+    width:100%;
+    background: rgb(68, 46, 68);
+}
 }

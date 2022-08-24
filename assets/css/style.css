@@ -2,7 +2,7 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     color:rgb(248, 233, 213);
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 /*sets the background color for the boddy element*/
 body {
@@ -21,63 +21,87 @@ sets the height of the header banner and allows to put text on banner image*/
     height: 300px;
 }
 
-/*#aboutme {
-    position: absolute;
-}*/
 
 .aboutme {
+    display: inline-block;
+    position: relative;
     flex: 1 1 auto;
-    padding: 10px;
-    margin: 0%; 
+    margin-top: 2%;
+    margin-bottom: 2%; 
     border-right: 10px solid;
     font-size: 50px;
     width: 15%;
 }
 
-/*#aboutp{
-    position: absolute;
-    margin: auto;
-}*/
+
 .aboutp {
+    display: inline-block;
+    position: relative;
     flex: 1 0 auto;
-    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     text-align: center;
-    border-style: solid;
     border-width: 1px;
-    /*width: 80%;*/
+    width: 80%;
     }
 
 .projects {
+    display: inline-block;
     flex: 1 1 auto;
     padding: 10px;
     border-right: 10px solid;
-    font-size: 50px;
+    font-size: 40px;
     width: 15%;
 }
 
 .project {
+    background-image: url("../images/bellflowers-7298762_1920.jpg");
+    display: inline-block;
     flex: 1 0 auto;
+    position: relative;
     padding: 10px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
+    height: 30px;
+    width: 80%;
+}
+
+.small-projects {
+    background-image: url("../images/snow-5404785_1920.jpg");
+    display: inline-block;
+    flex: 1 0 auto;
+    padding: 10px;
+    position: relative;
+    width: 45%;
+    
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-width: 1px;
+    float: right;
 }
 
 
 .contactme {
+    display: inline-block;
+    position: relative;
     flex: 1 1 auto;
     padding: 10px;
     border-right: 10px solid;
-    font-size: 50px;
+    font-size: 40px;
     width: 15%;
 }
 
 .contact {
+    display: inline-block;
+    position: relative;
     flex: 1 0 uto;
     font-size: large;
     text-align: center;
     border-style: solid;
     border-width: 1px;
+    width: 80%;
 }
 /*sets the display of the navigation links*/
 nav {

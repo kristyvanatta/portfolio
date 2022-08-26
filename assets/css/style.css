@@ -12,14 +12,6 @@ body {
 
 /*banner image credit: https://pixabay.com/illustrations/banner-header-homepage-halloween-1756639/
 sets the height of the header banner and allows to put text on banner image*/
-/*.header-img {
-    background-image: url("../images/banner-1756639_1920.jpg");
-    flex: 1 0 auto;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    height: 300px;
-}*/
 .header-img {
     background-image: url("..//images/banner-1756639_1920.jpg");
     display: grid;
@@ -29,17 +21,6 @@ sets the height of the header banner and allows to put text on banner image*/
     width: 100%;
 }
 
-
-/*.aboutme {
-    display: inline-block;
-    position: relative;
-    flex: 1 1 auto;
-    margin-top: 2%;
-    margin-bottom: 2%; 
-    border-right: 10px solid;
-    font-size: 50px;
-    width: 15%;
-}*/
 .aboutme {
     display: grid;
     grid-gap: 2px;
@@ -50,34 +31,16 @@ sets the height of the header banner and allows to put text on banner image*/
 }
 
 
-/*.aboutp {
-    display: inline-block;
+.aboutp {
+    display: grid;
     position: relative;
-    flex: 1 0 auto;
+    font-size: 20px;
     margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;
-    border-width: 1px;
-    width: 80%;
-    }*/
-    .aboutp {
-        display: grid;
-        position: relative;
-        font-size: 20px;
-        margin-top: 2%;
-        grid-gap: 2px;
-        float: right;
-        width: 75%;
+    grid-gap: 2px;
+    float: right;
+    width: 75%;
     }
 
-/*.projects {
-    display: inline-block;
-    flex: 1 1 auto;
-    padding: 10px;
-    border-right: 10px solid;
-    font-size: 40px;
-    width: 15%;
-}*/
 .projects {
     display: grid;
     grid-gap: 2px;
@@ -87,18 +50,6 @@ sets the height of the header banner and allows to put text on banner image*/
     width: 15%;
 }
 
-/*.project {
-    background-image: url("../images/bellflowers-7298762_1920.jpg");
-    display: inline-block;
-    flex: 1 0 auto;
-    position: relative;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    height: 30px;
-    width: 80%;
-}*/
 .project {
     background-image: url("..//images/bellflowers-7298762_1920.jpg");
     display: grid;
@@ -113,23 +64,9 @@ sets the height of the header banner and allows to put text on banner image*/
     margin: 1%;
 }
 
-/*.small-projects {
-    background-image: url("../images/snow-5404785_1920.jpg");
-    display: inline-block;
-    flex: 1 0 auto;
-    padding: 10px;
-    position: relative;
-    width: 45%;
-    margin-bottom: 2%;
-    margin-right: 2%;
-    border-style: solid;
-    border-width: 1px;
-    float: right;
-}*/
 .small-projects {
     background-image: url("..//images/flower-7184366_1920.jpg");
     display: grid;
-    /*grid-template-rows: fit-content (200px);*/
     position: relative;
     text-align: center;
     border-style: solid;
@@ -141,16 +78,6 @@ sets the height of the header banner and allows to put text on banner image*/
     margin: 1%;
 }
 
-
-/*.contactme {
-    display: inline-block;
-    position: relative;
-    flex: 1 1 auto;
-    padding: 10px;
-    border-right: 10px solid;
-    font-size: 40px;
-    width: 15%;
-}*/
 .contactme {
     display: grid;
     position: relative;
@@ -160,24 +87,11 @@ sets the height of the header banner and allows to put text on banner image*/
     width: 15%;
 }
 
-/*.contact {
-    display: inline-block;
-    position: relative;
-    flex: 1 0 uto;
-    font-size: large;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    width: 80%;
-}*/
 .contact {
     display: grid;
     position: relative;
-    text-align: center;
-    font-size: 25px;
-    border-style: solid;
+    font-size: 30px;
     float: right;
-    border-width: 1px;
     height: 50px;
     grid-gap: 2px;
     width:80%;
@@ -186,8 +100,6 @@ sets the height of the header banner and allows to put text on banner image*/
 nav {
     float: right;
     font-size: 30px;
-   /* padding: 15px;
-    margin-top: 150px;*/
 }
 /*sets the color of the hover action for the navigation links*/
 nav :hover {

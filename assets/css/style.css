@@ -55,8 +55,11 @@ sets the height of the header banner and allows to put text on banner image*/
     width: 15%;
 }
 
-.main-projects {
-    width: 100%;
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    justify-content: center;
 }
 .project {
     background-image: url("..//images/bellflowers-7298762_1920.jpg");
